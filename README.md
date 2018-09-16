@@ -22,7 +22,8 @@ This code is written in python. To use it you will need:
 
 ## Evaluation
     score = cnn.evaluate(test_x, test_y)
-    print('Accuracy is : ', score)
+    print('Loss is : ', score[0])
+    print('Accuracy is : ', score[1])    
 
 
 ## Classify a new instance
