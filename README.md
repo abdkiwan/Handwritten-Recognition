@@ -7,7 +7,7 @@ This code is written in python. To use it you will need:
 * python  2.7
 * Keras  2.2.2
 * numpy  1.15.1
-* Tensorflow  1.10.0
+* Tensorflow or Theano 
 
 
 ## Loading Data
@@ -16,6 +16,7 @@ This code is written in python. To use it you will need:
 
 
 ## Training
+    from ConvolutionalNN import CNN
     cnn = CNN()
     cnn.train(train_x, train_y, epochs=10, batch_size=32)
 
